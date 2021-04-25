@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Commission Queue</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <div id="main-container" class="container">
+            <noscript>
+                <div class="alert alert-danger mt-4" role="alert">
+                    This thing requires JavaScript to be enabled and it looks
+                    like you have it turned off.
+                </div>
+            </noscript>
+
+            <h1 class="mt-4 mb-4">
+                Commission Queue
+            </h1>
+
+            <div class="mb-4">
+                <p>
+                    Commissions use codenames for the sake of privacy. The
+                    commissioners know which codename belongs to them.
+                </p>
+                <p>
+                    The front of the queue is at the top. Later tasks are added
+                    at the bottom. I don't necessarily work in strictly that
+                    order. Smaller jobs may get squeezed into smaller time
+                    slots. Pieces of the same type may block each other, e.g.
+                    I'm unlikely to start a story while still working on one,
+                    but may begin a drawing instead.
+                </p>
+                <p>
+                    Commission prices are <a href="prices">here</a>.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-secondary mb-4">
+                        <h2 class="card-header border-secondary h4">
+                            To Do
+                        </h2>
+                        <ul id="todo-column" class="list-group list-group-flush"></ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-secondary mb-4">
+                        <h2 class="card-header border-secondary h4">
+                            Doing
+                        </h2>
+                        <ul id="doing-column" class="list-group list-group-flush"></ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-secondary mb-4">
+                        <h2 class="card-header border-secondary h4">
+                            Done
+                        </h2>
+                        <ul id="done-column" class="list-group list-group-flush"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer id="footer" class="text-muted text-right"><footer>
+        </div>
+
+        <script src="queue.js"></script>
+    </body>
+</html>
