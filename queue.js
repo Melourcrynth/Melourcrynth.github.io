@@ -2,10 +2,8 @@
     'use strict';
 
     const contextByType = {
-        sketch:   'success',
-        drawing:  'primary',
-        painting: 'danger',
-        story:    'warning',
+        picture: 'primary',
+        story:   'warning',
     };
 
     const uls = {
